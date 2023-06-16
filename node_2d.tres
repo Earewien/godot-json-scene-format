@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "tree": {
+    "Node2D": {
+      "type": "Node2D",
+      "children": {
+        "Node": {
+          "type": "Node"
+        },
+        "AnimationPlayer": {
+          "type": "AnimationPlayer",
+          "properties": {
+            "root_node": "NodePath(\"../Node\")",
+            "libraries": "{\n\"\": Resource(\"res://new_animation_library.tres\")\n}"
+          }
+        }
+      }
+    }
+  }
+}
